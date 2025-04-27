@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Modern Periodic Table</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <script type="module" src="https://unpkg.com/@google/model-viewer"></script>
+</head>
+<body>
+  <header>
+    <h1>🧪 Periodic Table of Elements</h1>
+    <input type="text" id="search-box" placeholder="Search by name, symbol, or number..." />
+    <div id="category-buttons" class="filters"></div>
+  </header>
+
+  <main>
+    <div id="periodic-table-container" class="grid-container"></div>
+    <p class="legend">* Lanthanides and Actinides are shown in separate rows</p>
+  </main>
+
+  <div id="element-modal" class="modal">
+    <div id="modal-body" class="modal-content"></div>
+  </div>
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>
